@@ -1,0 +1,2 @@
+CouchDB has a lot usage in large systems.
+It is used for data management for the large hydron collider, it's used for casework in disaster areas by the redcross, and is used by IBM cloud services. It is designed for multi-node, peer to peer, offline first databases, which makes it very useful overall.

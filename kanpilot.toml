@@ -1,0 +1,92 @@
+name = "project"
+skipFolders = [ "node_modules", ".vscode", "out", "dist", ".vscode-test" ]
+skipFiles = [ ".gitignore", "package.json" ]
+
+[[processes]]
+id = "process1"
+name = "To Do"
+tasks = [ ]
+
+[[processes]]
+id = "process2"
+name = "In Progress"
+tasks = [ ]
+
+[[processes]]
+id = "process3"
+name = "Done"
+
+  [[processes.tasks]]
+  id = "task2"
+  title = "Code Examples of how to use the database"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  priority = ""
+  linkCommits = [ ]
+
+    [[processes.tasks.checkList]]
+    id = "y8m15skq87zejxt8n0xgamht"
+    title = "Create DB"
+    completed = true
+
+    [[processes.tasks.checkList]]
+    id = "pqjedp79qakpbrf6l90r182r"
+    title = "Add document"
+    completed = true
+
+    [[processes.tasks.checkList]]
+    id = "a7g8r8or4skna2oz26vodsrt"
+    title = "Index document"
+    completed = true
+
+    [[processes.tasks.checkList]]
+    id = "xxb7qqk0hxqmfq0sesl95qiy"
+    title = "Delete document"
+    completed = true
+
+    [[processes.tasks.checkList]]
+    id = "awixgpbjzn0gckiheqhwuj5m"
+    title = "Delete DB"
+    completed = true
+
+  [[processes.tasks]]
+  id = "task1"
+  title = "Makrdown files"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  priority = ""
+  linkCommits = [ ]
+
+    [[processes.tasks.checkList]]
+    id = "tm5hynv3x32eugq2ejtms2uh"
+    title = "Installaion.md"
+    completed = true
+
+    [[processes.tasks.checkList]]
+    id = "cxg1vvob7lizn7571d6usk4m"
+    title = "requirements.md"
+    completed = true
+
+    [[processes.tasks.checkList]]
+    id = "tjk9l7vm6vt5rr4mtafe1vn5"
+    title = "purpose.md"
+    completed = true
+
+    [[processes.tasks.checkList]]
+    id = "pamzkon20ok64pmqdjtgn0ws"
+    title = "usage.md"
+    completed = true
+
+    [[processes.tasks.checkList]]
+    id = "o8d54j1654aruddnjy1mnn4o"
+    title = "shortcomings.md"
+    completed = true
+
+    [[processes.tasks.checkList]]
+    id = "sbi4gqg35bhg68o1la6lgxro"
+    title = "plans.md"
+    completed = true
